@@ -3,7 +3,10 @@
 
 まず始めに使用した原画像について説明する。
 「pet_robot_man」を原画像とする．この画像は縦420画素，横560画素のディジタルカラー画像である．
+使用した原画像を示す。
 
+![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/pet_robot_man.png)  
+図1 原画像
 
 clear; % 変数のオールクリア
 
@@ -12,11 +15,11 @@ ORG = rgb2gray(ORG); colormap(gray); colorbar;
 imagesc(ORG); axis image; % 画像の表示
 pause; % 一時停止
 
-によって原画像を読み込み、更に画像を白黒二値画像に変換する。
-表示した結果を表１に示す。
+によって原画像を読み込み、読み込んだ画像を白黒二値画像に変換した。
+表示した結果を表２に示す。
 
 ![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/pet_robot_man.png)  
-図1 変換された原画像
+図２ 変換された原画像
 
 % ２階調画像の生成
 IMG = ORG>128;
