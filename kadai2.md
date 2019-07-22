@@ -29,6 +29,8 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 pause;
 
 ２段階調画像の生成の結果を図３に示す。
+
+
 ![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai2_2.png)  
 図３　生成した２段階調画像
 
