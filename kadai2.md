@@ -44,6 +44,7 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 pause;
 
 ４段階調画像の生成の結果を図４に示す。
+
 ![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai2_3.png)  
 図４ 生成した４段階調画像
 
