@@ -65,5 +65,7 @@ IMG = IMG0 + IMG1 + IMG2 + IMG3+ IMG4+ IMG5+ IMG6;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 ８段階調画像の生成の結果を図５に示す。
+
+
 ![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai2_4.png)  
 図５ 生成した８段階調画像
