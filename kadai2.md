@@ -11,8 +11,11 @@
 clear; % 変数のオールクリア
 
 ORG=imread('pet_robot_man.png'); % 原画像の入力
+
 ORG = rgb2gray(ORG); colormap(gray); colorbar;
+
 imagesc(ORG); axis image; % 画像の表示
+
 pause; % 一時停止
 
 によって原画像を読み込み、読み込んだ画像を白黒二値画像に変換した。
