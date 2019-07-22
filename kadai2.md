@@ -18,7 +18,7 @@ pause; % 一時停止
 によって原画像を読み込み、読み込んだ画像を白黒二値画像に変換した。
 表示した結果を表２に示す。
 
-![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/pet_robot_man.png)  
+![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai2_1.png)  
 図２ 白黒二値画像に変換された原画像
 
 ２段階調を生成するには画像のORGを128以上に設定する。
@@ -29,7 +29,7 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 pause;
 
 ２段階調画像の生成の結果を図３に示す。
-![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/pet_robot_man.png)  
+![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai2_2.png)  
 図３　生成した２段階調画像
 
 ４段階調を生成するには画像のORGを64以上に設定する。
@@ -44,7 +44,7 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 pause;
 
 ４段階調画像の生成の結果を図４に示す。
-![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/pet_robot_man.png)  
+![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai2_3.png)  
 図４ 生成した４段階調画像
 
 ４段階調同様に、８段階調を生成するには画像のORGを32以上に設定する。
@@ -62,5 +62,5 @@ IMG = IMG0 + IMG1 + IMG2 + IMG3+ IMG4+ IMG5+ IMG6;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 ８段階調画像の生成の結果を図５に示す。
-![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/pet_robot_man.png)  
+![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai2_4.png)  
 図５ 生成した８段階調画像
