@@ -18,6 +18,7 @@ imagesc(ORG); axis image; % 画像の表示
 
 pause; % 一時停止
 
+
 によって原画像を読み込み、読み込んだ画像を白黒二値画像に変換した。
 表示した結果を表２に示す。
 
@@ -33,6 +34,7 @@ IMG = ORG>128;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 pause;
+
 
 ２段階調画像の生成の結果を図３に示す。
 
@@ -56,6 +58,7 @@ IMG = IMG0 + IMG1 + IMG2;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 pause;
+
 
 ４段階調画像の生成の結果を図４に示す。
 
