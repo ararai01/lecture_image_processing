@@ -90,3 +90,6 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 ![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai2_4.png)  
 図５ 生成した８段階調画像
+
+
+このように諧調を変化させることができる。
