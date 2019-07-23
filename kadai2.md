@@ -2,7 +2,7 @@
 ２階調，４階調，８階調の画像を生成した．
 
 まず始めに使用した原画像について説明する。
-「pet_robot_man」を原画像とする．この画像は縦420画素，横560画素のディジタルカラー画像である．
+「pet_robot_man」を原画像とする．この画像はディジタルカラー画像である．
 使用した原画像を図１に示す。
 
 ![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/pet_robot_man.png)  
