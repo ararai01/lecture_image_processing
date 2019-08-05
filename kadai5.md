@@ -24,7 +24,6 @@ pause;
 ![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai5-1.png)  
 図2 白黒濃淡画像
 
-
 判別分析法を実行
 
 H = imhist(ORG); %ヒストグラムのデータを列ベクトルEに格納
@@ -72,7 +71,6 @@ IMG = ORG > max_thres;
 imagesc(IMG); colormap(gray); colorbar;
 
 pause;
-
 
 
 ![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai5-2.png)  
