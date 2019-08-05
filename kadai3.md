@@ -38,7 +38,7 @@ pause;
 輝度値64以上の画素を１としたときの結果を図３に示す。
 
 
-![原画像]()  
+![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai3-1.png)  
 図３　輝度値64以上の画素を１としたときの画像
 
 同様にして輝度値96以上の画素を１としたとき、白黒で画像を表示する。
@@ -52,7 +52,7 @@ pause;
 
 同様にして輝度値96以上の画素を１としたときの結果を図４に示す。
 
-![原画像]()  
+![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai3-2.png)  
 図４ 輝度値96以上の画素を１としたときの画像
 
 同様にして輝度値128以上の画素を１としたとき、白黒で画像を表示する。
@@ -66,7 +66,7 @@ pause;
 輝度値128以上の画素を１としたときの結果を図５に示す。
 
 
-![原画像]()  
+![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai3-3.png)  
 図５ 輝度値128以上の画素を１としたときの画像
 
 同様にして輝度値192以上の画素を１としたとき、白黒で画像を表示する。
@@ -74,6 +74,13 @@ pause;
 IMG = ORG > 192;
 
 imagesc(IMG); colormap(gray); colorbar;
+
+輝度値192以上の画素を１としたときの結果を図５に示す。
+
+
+![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai3-4.png)  
+図6 輝度値192以上の画素を１としたときの画像
+
 
 輝度値の変化に対応した画像の確認ができた。
 
