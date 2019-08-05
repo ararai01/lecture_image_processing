@@ -22,4 +22,14 @@ IMG2 = ORG>192;
 IMG = IMG0 + IMG1 + IMG2;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 
-% ８階調については，各自検討してください．
+% ８階調について
+IMG0 = ORG>32;
+IMG1 = ORG>64;
+IMG2 = ORG>96;
+IMG3 = ORG>128;
+IMG4 = ORG>192;
+IMG5 = ORG>224;
+IMG6 = ORG>256;
+IMG = IMG0 + IMG1 + IMG2 + IMG3+ IMG4+ IMG5+ IMG6;
+imagesc(IMG); colormap(gray); colorbar;  axis image;
+
