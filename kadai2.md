@@ -95,4 +95,4 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 図５ 生成した８段階調画像
 
 
-このように諧調を変化させることができる。
+このように階調を変化させることができる。
