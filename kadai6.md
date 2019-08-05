@@ -21,20 +21,26 @@ imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 
 pause; % 一時停止
 
-
-
-
 ![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai5-1.png)  
 図2 白黒濃淡画像
 
-ディザ法を実行
+輝度値128以上のときの二値化
 
-
-
+IMG = ORG>128; % 128による二値化
+imagesc(IMG); colormap(gray); colorbar; % 画像の表示
+pause
 
 ![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai5-2.png)  
-図3 判別分析による二値化画像
+図3 輝度値128以上のときの二値化画像
 
+ディザ法による二値化
+
+IMG = dither(ORG); % ディザ法による二値化
+
+imagesc(IMG); colormap(gray); colorbar; % 画像の表示
+
+![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai5-2.png)  
+図4　ディザ法による二値化画像
 
 
 判別分析法による二値化の確認ができた。
