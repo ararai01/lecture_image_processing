@@ -11,7 +11,7 @@
 % ヒストグラムの表示
 imhist(ORG); 
 
-![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/pet_robot_man.png)  
+![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai4-1.jpg)  
 図2 ヒストグラム画像
 
 
