@@ -24,9 +24,10 @@ imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 
 pause;
 
-![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/TAN_uwanensyuhikusugi_TP_V.jpg)  
+![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai9-1.png)  
 図2 白黒濃淡画像
 
+ノイズを添付する。
 
 ORG = imnoise(ORG,'salt & pepper',0.02); % ノイズ添付
 
@@ -34,13 +35,17 @@ imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 
 pause;
 
-
+![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai9-2.png)  
+図3 ノイズ添付画像
 
 IMG = filter2(fspecial('average',3),ORG); % 平滑化フィルタで雑音除去
 
 imagesc(IMG); colormap(gray); colorbar; % 画像の表示
 
 pause;
+
+![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai9-3.png)  
+図4 平滑化フィルタによるノイズ除去画像
 
 
 IMG = medfilt2(ORG,[3 3]); % メディアンフィルタで雑音除去
@@ -49,6 +54,8 @@ imagesc(IMG); colormap(gray); colorbar; % 画像の表示
 
 pause;
 
+![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai9-4.png)  
+図5 メディアンフィルタによるノイズ除去画像
 
 f=[0,-1,0;-1,5,-1;0,-1,0]; % フィルタの設計
 IMG = filter2(f,IMG,'same'); % フィルタの適用
