@@ -24,7 +24,8 @@ imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 
 pause;
 
-
+![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/TAN_uwanensyuhikusugi_TP_V.jpg)  
+図2 白黒濃淡画像
 
 
 ORG = imnoise(ORG,'salt & pepper',0.02); % ノイズ添付
