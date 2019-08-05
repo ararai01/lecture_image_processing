@@ -39,7 +39,7 @@ IMG = dither(ORG); % ディザ法による二値化
 
 imagesc(IMG); colormap(gray); colorbar; % 画像の表示
 
-![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai6-.png)  
+![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai6-2.png)  
 図4　ディザ法による二値化画像
 
 
