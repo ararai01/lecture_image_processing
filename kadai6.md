@@ -11,13 +11,16 @@
 
 白黒濃淡画像に変換する。
 
-ORG=imread('TAN_uwanensyuhikusugi_TP_V.jpg'); % 原画像の入力
+clear; % 変数のオールクリア
 
-ORG = rgb2gray(ORG); % カラー画像を白黒濃淡画像へ変換
+ORG=imread('pet_robot_man.png'); % 原画像の入力
 
-imagesc(ORG); colormap(gray); colorbar;
+ORG = rgb2gray(ORG);
 
-pause;
+imagesc(ORG); colormap(gray); colorbar; % 画像の表示
+
+pause; % 一時停止
+
 
 
 
