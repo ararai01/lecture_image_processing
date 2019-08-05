@@ -1,5 +1,19 @@
-課題９ メディアンフィルタと先鋭化
+#課題９ メディアンフィルタと先鋭化
 メディアンフィルターを適用し，ノイズ除去する。
+
+
+
+まず始めに使用した原画像について説明する。
+「TAN_uwanensyuhikusugi_TP_V.jpg」を原画像とする．この画像はディジタルカラー画像である．
+使用した原画像を図１に示す。
+
+
+![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/TAN_uwanensyuhikusugi_TP_V.jpg)  
+図1 原画像
+
+白黒濃淡画像に変換する。
+
+
 
 ORG = imread('TAN_uwanensyuhikusugi_TP_V.jpg'); % 画像の読み込み
 
