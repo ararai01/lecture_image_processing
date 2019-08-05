@@ -5,6 +5,7 @@
 「TAN_uwanensyuhikusugi_TP_V」を原画像とする．この画像はディジタルカラー画像である．
 使用した原画像を図１に示す。
 
+
 ![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/TAN_uwanensyuhikusugi_TP_V.jpg)  
 図1 原画像
 
@@ -17,6 +18,7 @@ ORG = rgb2gray(ORG); % カラー画像を白黒濃淡画像へ変換
 imagesc(ORG); colormap(gray); colorbar;
 
 pause;
+
 
 
 ![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai5-1.png)  
@@ -70,6 +72,7 @@ IMG = ORG > max_thres;
 imagesc(IMG); colormap(gray); colorbar;
 
 pause;
+
 
 
 ![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai5-2.png)  
