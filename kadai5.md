@@ -10,10 +10,18 @@
 
 白黒濃淡画像に変換する。
 
+
 ORG=imread('TAN_uwanensyuhikusugi_TP_V.jpg'); % 原画像の入力
+
+
 ORG = rgb2gray(ORG); % カラー画像を白黒濃淡画像へ変換
+
+
 imagesc(ORG); colormap(gray); colorbar;
+
+
 pause;
+
 
 ![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai5-1.png)  
 図2 白黒濃淡画像
