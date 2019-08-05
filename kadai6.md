@@ -21,7 +21,7 @@ imagesc(ORG); colormap(gray); colorbar; % 画像の表示
 
 pause; % 一時停止
 
-![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai5-1.png)  
+![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai2_1.png)  
 図2 白黒濃淡画像
 
 輝度値128以上のときの二値化
