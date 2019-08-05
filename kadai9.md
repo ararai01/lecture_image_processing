@@ -67,4 +67,4 @@ imagesc(IMG); colormap(gray); colorbar; % 画像の表示
 pause;
 
 ![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/kadai9-5.png)  
-図6 メディアンフィルタによるノイズ除去画像
+図6 フィルタの設計
