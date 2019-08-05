@@ -2,11 +2,11 @@
 ディザ法によって二値化する．
 
 まず始めに使用した原画像について説明する。
-「TAN_uwanensyuhikusugi_TP_V」を原画像とする．この画像はディジタルカラー画像である．
+「pet_robot_man.png」を原画像とする．この画像はディジタルカラー画像である．
 使用した原画像を図１に示す。
 
 
-![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/TAN_uwanensyuhikusugi_TP_V.jpg)  
+![原画像](https://github.com/ararai01/lecture_image_processing/blob/master/my_image/pet_robot_man.png)  
 図1 原画像
 
 白黒濃淡画像に変換する。
